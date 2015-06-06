@@ -1,0 +1,4 @@
+Scence: 1
+Id: ban_ngay
+File: ban_ngay.png
+Position: 0 0

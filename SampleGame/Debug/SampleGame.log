@@ -1,0 +1,101 @@
+﻿Build started 5/18/2014 12:16:34 AM.
+     1>Project "D:\DropBox\Dropbox\Flappy Bird\SampleGame\SampleGame.vcxproj" on node 2 (build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1395,5): warning : The referenced project '..\LibPNG\LibPNG.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         Creating "Debug\SampleGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\vld\include /I..\Library\OpenGLES\Include /I..\Library\LibPNG\Include /I..\GameEngine /ZI /nologo /W3 /WX- /Od /Oy- /D _NO_CRT_SECURE_WARNINGS /D WIN32 /D OPENGLES2 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Bird.cpp GameManager.cpp GameObject.cpp ImageGame.cpp Main.cpp Scence.cpp
+         Scence.cpp
+     1>d:\dropbox\dropbox\flappy bird\samplegame\scence.cpp(36): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\scence.cpp(49): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\scence.cpp(53): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\scence.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\scence.cpp(55): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+         Main.cpp
+     1>d:\dropbox\dropbox\flappy bird\samplegame\scence.h(5): warning C4005: 'MAX' : macro redefinition
+                 d:\dropbox\dropbox\flappy bird\samplegame\bird.h(7) : see previous definition of 'MAX'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.h(7): warning C4005: 'MAX' : macro redefinition
+                 d:\dropbox\dropbox\flappy bird\samplegame\scence.h(5) : see previous definition of 'MAX'
+         ImageGame.cpp
+     1>d:\dropbox\dropbox\flappy bird\samplegame\imagegame.cpp(61): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         GameObject.cpp
+         GameManager.cpp
+     1>d:\dropbox\dropbox\flappy bird\samplegame\scence.h(5): warning C4005: 'MAX' : macro redefinition
+                 d:\dropbox\dropbox\flappy bird\samplegame\bird.h(7) : see previous definition of 'MAX'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.h(7): warning C4005: 'MAX' : macro redefinition
+                 d:\dropbox\dropbox\flappy bird\samplegame\scence.h(5) : see previous definition of 'MAX'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.cpp(42): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.cpp(55): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.cpp(59): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.cpp(60): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.cpp(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.cpp(97): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\dropbox\flappy bird\samplegame\gamemanager.cpp(98): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+         Bird.cpp
+     1>d:\dropbox\dropbox\flappy bird\samplegame\bird.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\bird.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\bird.cpp(37): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\bird.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\bird.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\bird.cpp(40): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\dropbox\dropbox\flappy bird\samplegame\bird.cpp(43): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SampleGame.exe.embed.manifest.res" Debug\SampleGame_manifest.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\SampleGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\vld\lib\Win32 /LIBPATH:..\Library\LibPNG\Lib /LIBPATH:..\Library\OpenGLES\Lib libGLESv2.lib libEGL.lib libPNG.lib vld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SampleGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\DropBox\Dropbox\Flappy Bird\Bin\SampleGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Bin\SampleGame.lib" /MACHINE:X86 Debug\SampleGame.exe.embed.manifest.res
+         Debug\Bird.obj
+         Debug\GameManager.obj
+         Debug\GameObject.obj
+         Debug\ImageGame.obj
+         Debug\Main.obj
+         Debug\Scence.obj
+         "D:\DropBox\Dropbox\Flappy Bird\Debug\GameEngine.lib"
+         LINK : ..\Bin\SampleGame.exe not found or not built by the last incremental link; performing full link
+     1>libPNG.lib(adler32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(adler32.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(crc32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(crc32.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(inffast.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(inffast.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(inflate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(inflate.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(inftrees.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(inftrees.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(png.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(png.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngerror.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngget.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngget.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngmem.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngmem.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngread.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngrio.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngrio.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngrtran.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngrtran.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngrutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngrutil.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngset.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngset.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(pngtrans.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(pngtrans.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+     1>libPNG.lib(zutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libPNG.lib(zutil.obj)' or at 'D:\DropBox\Dropbox\Flappy Bird\Bin\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SampleGame.exe.embed.manifest" /manifest Debug\SampleGame.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         SampleGame.vcxproj -> D:\DropBox\Dropbox\Flappy Bird\SampleGame\..\Bin\SampleGame.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SampleGame.unsuccessfulbuild".
+         Touching "Debug\SampleGame.lastbuildstate".
+     1>Done Building Project "D:\DropBox\Dropbox\Flappy Bird\SampleGame\SampleGame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.95

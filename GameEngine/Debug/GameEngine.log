@@ -1,0 +1,33 @@
+﻿Build started 5/18/2014 12:16:30 AM.
+     1>Project "D:\DropBox\Dropbox\Flappy Bird\GameEngine\GameEngine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GameEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library\OpenGLES\Include /I..\Library\LibPNG\Include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D OPENGLES2 /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Geometry.cpp GameTime.cpp Device.cpp Graphics.cpp Image.cpp Logger.cpp Shader.cpp InputManager.cpp
+         InputManager.cpp
+         Shader.cpp
+         Logger.cpp
+         Image.cpp
+         Graphics.cpp
+         Device.cpp
+         GameTime.cpp
+         Geometry.cpp
+         Generating Code...
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\DropBox\Dropbox\Flappy Bird\Debug\GameEngine.lib" /NOLOGO Debug\Geometry.obj
+         Debug\GameTime.obj
+         Debug\Device.obj
+         Debug\Graphics.obj
+         Debug\Image.obj
+         Debug\Logger.obj
+         Debug\Shader.obj
+         Debug\InputManager.obj
+         GameEngine.vcxproj -> D:\DropBox\Dropbox\Flappy Bird\Debug\GameEngine.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\GameEngine.unsuccessfulbuild".
+         Touching "Debug\GameEngine.lastbuildstate".
+     1>Done Building Project "D:\DropBox\Dropbox\Flappy Bird\GameEngine\GameEngine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.79

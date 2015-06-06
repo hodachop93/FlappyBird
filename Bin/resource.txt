@@ -1,0 +1,17 @@
+Images: 5
+Id: pipe_down
+File: pipe_down.png
+Position: 500 0
+Id: pipe_down
+File: pipe_down.png
+Position:  780 0
+Id: pipe_up
+File: pipe_up.png
+Position: 500 0 
+Id: pipe_up
+File: pipe_up.png
+Position: 780 0 
+Id: ground
+File: ground.png
+Position: 0 600	
+

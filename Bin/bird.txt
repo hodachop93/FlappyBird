@@ -1,0 +1,6 @@
+Id: bird
+File: bird_down.png
+Position: 220 200
+Speed_downY: 100
+Speed_upY: -200
+File: bird_up.png
